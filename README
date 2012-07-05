@@ -1,0 +1,18 @@
+This is the repo description xml.
+
+Usage: 
+在 home 文件夹下建立 bin 文件夹，然后把这个路径加入你的 PATH 环境变量中。
+$ mkdir ~/bin
+$ PATH=~/bin:$PATH
+
+下载 Repo 脚本，并加可执行权限
+
+$ curl https://dl-ssl.google.com/dl/googlesource/git-repo/repo > ~/bin/repo
+$ chmod a+x ~/bin/repo
+
+初始化你的 repo
+repo init -u git://github.com/zy-sunshine/magiclinux.repo.github
+
+将 repo 中所有 git 项目同步到你的本地
+repo sync -j4
+
