@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote  name="aosp"
+           fetch="https://android.googlesource.com/" />
+
+  <remote  name="github"
+           fetch=".."
+           review="review.cyanogenmod.com" />
+
+  <remote  name="private"
+           fetch="ssh://git@github.com" />
+
+  <default revision="refs/heads/master"
+           remote="github"
+           sync-j="4" />
+
+  <!--<project path="hardware/invensense" name="platform/hardware/invensense" remote="aosp" revision="refs/tags/android-4.0.4_r2.1" />-->
+  <!--<project path="hardware/libhardware" name="CyanogenMod/android_hardware_libhardware" />-->
+
+  <project path="MagicSpecA-E" name="MagicGroup/MagicSpecA-E" />
+</manifest>
