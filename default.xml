@@ -6,8 +6,15 @@
   <default revision="refs/heads/master"
            remote="github" />
 
-  <!--<project path="hardware/invensense" name="platform/hardware/invensense" remote="aosp" revision="refs/tags/android-4.0.4_r2.1" />-->
-  <!--<project path="hardware/libhardware" name="CyanogenMod/android_hardware_libhardware" />-->
+  <project path="magiclinux" name="MagicGroup/magiclinux" />
+  <project path="magic_vendor" name="MagicGroup/magic_vendor" />
 
-  <project path="magiclinuxtest" name="MagicGroup/magiclinux" />
+  <project path="MagicSpec0-9" name="MagicGroup/MagicSpec0-9" />
+  <project path="MagicSpecA-E" name="MagicGroup/MagicSpecA-E" />
+  <project path="MagicSpecF-K" name="MagicGroup/MagicSpecF-K" />
+  <project path="MagicSpecL-P" name="MagicGroup/MagicSpecL-P" />
+  <project path="MagicSpecQ-U" name="MagicGroup/MagicSpecQ-U" />
+  <project path="MagicSpecV-Z" name="MagicGroup/MagicSpecV-Z" />
+
+  <project path="MagicSpecLib" name="MagicGroup/MagicSpecLib" />
 </manifest>
