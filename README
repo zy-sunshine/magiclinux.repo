@@ -11,7 +11,7 @@ $ curl https://dl-ssl.google.com/dl/googlesource/git-repo/repo > ~/bin/repo
 $ chmod a+x ~/bin/repo
 
 初始化你的 repo
-mkdir magiclinux && cd magclinux
+mkdir magiclinux && cd magiclinux
 repo init -u git://github.com/zy-sunshine/magiclinux.repo.git
 
 将 repo 中所有 git 项目同步到你的本地
